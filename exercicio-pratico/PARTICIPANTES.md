@@ -23,13 +23,8 @@ Bem-vindo! Adicione seu nome abaixo seguindo o formato da lista.
 - **Mário Ferreira** - @alfa42853 - 14/01/2026
 - **Olivia Oliveira** - @oliviaoliveira - 14/01/2026
 - **David Dias** - @DavidEMDias - 14/01/2026
-<<<<<<< HEAD
 - **Gonçalo Machado** - @vazmac - 14/01/2026
 - **Joel Reis** - @NFAPT - 14/01/2026
-=======
-- **Joel Reis** - @NFAPT - 14/01/2026
-
->>>>>>> origin/main
 
 <!-- 
   👆 ADICIONE SEU NOME ACIMA DESTA LINHA 👆
