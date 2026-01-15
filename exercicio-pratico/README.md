@@ -33,13 +33,31 @@ git config --global user.email "seu.email@example.com"
 
 ## 🚀 Passo a Passo do Exercício
 
+### Passo 0: Faça um Fork do Repositório (OBRIGATÓRIO)
+
+Antes de clonar o repositório, você precisa criar uma cópia dele na sua própria conta do GitHub. Isso se chama **fork**.
+
+1. Acesse o repositório:
+   https://github.com/thiagoturini/aprenda-git
+
+2. No canto superior direito, clique no botão **Fork**
+
+3. Escolha sua conta pessoal do GitHub
+
+4. Aguarde a criação do fork
+
+Após isso, você terá uma cópia do repositório em: 
+   https://github.com/SEU-USUARIO/aprenda-git
+
+
+
 ### Passo 1: Clone o Repositório
 
 #### Pelo Terminal:
 
 ```bash
 # Clone o repositório para o seu computador
-git clone https://github.com/thiagoturini/aprenda-git.git
+git clone https://github.com/SEU-USUARIO/aprenda-git
 
 # Entre na pasta do projeto
 cd aprenda-git
@@ -52,7 +70,7 @@ cd exercicio-pratico
 
 1. Pressione `Ctrl+Shift+P` (ou `Cmd+Shift+P` no Mac)
 2. Digite: `Git: Clone`
-3. Cole a URL: `https://github.com/thiagoturini/aprenda-git.git`
+3. Cole a URL: `https://github.com/SEU-USUARIO/aprenda-git.git`
 4. Escolha onde salvar
 5. Clique em "Open" quando aparecer a notificação
 6. No Explorer, navegue até a pasta `exercicio-pratico`
@@ -218,10 +236,22 @@ git push origin adiciona-nome-seu-nome
 
 Agora vamos pedir para o instrutor revisar e aceitar sua contribuição!
 
-1. **Acesse o GitHub** no navegador:
+ℹ️ **Importante (entenda antes de continuar):**
+
+Você está trabalhando no **SEU fork** do repositório.
+
+- Origem das mudanças: `SEU-USUARIO/aprenda-git`
+- Destino do Pull Request: `thiagoturini/aprenda-git`
+
+O Pull Request serve para pedir que suas mudanças do seu fork sejam integradas ao repositório original do instrutor.
+
+
+1. **Acesse o GitHub** no navegador e vá até o SEU fork do repositório:
    ```
-   https://github.com/thiagoturini/aprenda-git
+   https://github.com/SEU-USUARIO/aprenda-git
    ```
+   💡 Dica: é no seu fork que aparece o botão **"Compare & pull request"**.
+
 
 2. Você verá um banner amarelo com sua branch e um botão **"Compare & pull request"**
    - Clique nele!
@@ -294,7 +324,7 @@ git branch -D adiciona-nome-seu-nome
 git checkout -b adiciona-nome-seu-nome
 ```
 
-### "Conflito ao fazer push"
+### "Conflito ao atualizar a branch"
 
 ```bash
 # Atualize sua branch com as mudanças mais recentes
@@ -309,7 +339,8 @@ git push origin sua-branch
 
 Verifique se:
 - Você está logado no GitHub
-- Você tem permissão para contribuir no repositório
+- Você está trabalhando no SEU fork (e não no repositório do instrutor)
+- O `origin` aponta para o seu usuário no GitHub
 - O nome da branch está correto
 
 ---
